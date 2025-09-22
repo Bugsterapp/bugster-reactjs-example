@@ -1,0 +1,10 @@
+name: Navigation from Contact to Home page
+page: /contact
+page_path: src/components/Contact.tsx
+task: Verify navigation from Contact to Home page works correctly
+steps:
+- Navigate to the Contact page ('/contact')
+- Find and click on the Home navigation link
+- Verify that the URL has changed to '/'
+- Verify that the Home page content is displayed
+expected_result: User should be redirected to the Home page

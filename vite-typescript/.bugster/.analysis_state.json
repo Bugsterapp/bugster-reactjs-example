@@ -1,12 +1,8 @@
 {
-  "status": "failed",
-  "started_at": "2025-09-22T11:37:18.633127",
+  "status": "completed",
+  "started_at": "2025-09-22T15:34:57.522599",
   "version": "1.0",
-  "completed": false,
-  "failed_at": "2025-09-22T11:37:18.670313",
-  "duration_seconds": 0.037189,
-  "error": {
-    "type": "BugsterHTTPError",
-    "message": "Error making POST request to api_url_placeholder/generate/init: Invalid URL 'api_url_placeholder/generate/init': No scheme supplied. Perhaps you meant https://api_url_placeholder/generate/init?"
-  }
+  "completed": true,
+  "completed_at": "2025-09-22T15:35:23.124724",
+  "duration_seconds": 25.60213
 }

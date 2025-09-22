@@ -1,0 +1,12 @@
+name: Navigation Between Pages
+page: /
+page_path: app/root.tsx
+task: Verify seamless navigation between all pages
+steps:
+- Start at the Home page
+- Click on About link and verify About page loads
+- Click on Products link and verify Products page loads
+- Click on Contact link and verify Contact page loads
+- Click on Dashboard link and verify Dashboard page loads
+- Click on Home link and verify return to Home page
+expected_result: User can navigate between all pages without errors

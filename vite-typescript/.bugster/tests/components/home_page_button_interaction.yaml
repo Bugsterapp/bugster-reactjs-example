@@ -1,0 +1,10 @@
+name: Home page button interaction
+page: /
+page_path: src/components/Home.tsx
+task: Verify the button click functionality on Home page
+steps:
+- Navigate to the Home page ('/')
+- Find the interactive button on the Home page
+- Click the button
+- Verify that the page content updates according to the state change
+expected_result: Button click should trigger state change on the Home page

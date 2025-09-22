@@ -1,0 +1,10 @@
+name: Contact Form Validation
+page: /contact
+page_path: app/routes/contact.tsx
+task: Verify form validation works on the contact form
+steps:
+- Navigate to the Contact page
+- Leave required fields empty
+- Click the Submit button
+- Verify validation error messages are displayed for empty fields
+expected_result: Form displays appropriate error messages when invalid data is submitted

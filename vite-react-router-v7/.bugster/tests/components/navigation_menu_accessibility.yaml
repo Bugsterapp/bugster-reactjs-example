@@ -1,0 +1,11 @@
+name: Navigation Menu Accessibility
+page: /
+page_path: app/components/Navigation.tsx
+task: Verify navigation menu is accessible
+steps:
+- Open the application
+- Use tab key to navigate through the navigation menu
+- Verify focus indicators are visible on navigation items
+- Press Enter key on a focused navigation item
+- Verify correct page is loaded
+expected_result: Navigation links are accessible via keyboard navigation

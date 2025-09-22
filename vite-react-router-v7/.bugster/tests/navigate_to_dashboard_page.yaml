@@ -1,0 +1,9 @@
+name: Navigate to Dashboard page
+page: /dashboard
+page_path: app/routes/dashboard.tsx
+task: Verify user can navigate to Dashboard page
+steps:
+- Open the application
+- Click on the Dashboard link in the navigation
+- Verify Dashboard page content is displayed
+expected_result: Dashboard page loads with relevant content
