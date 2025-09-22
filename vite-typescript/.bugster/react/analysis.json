@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "timestamp": 1758551838.666548,
+    "git": {
+      "branch": null,
+      "commit": null
+    }
+  },
+  "data": {
+    "framework": {
+      "id": "react",
+      "name": "React.js",
+      "dir_path": "/Users/francosbenitez/Documents/Projects/bugster-inc/bugster-reactjs-example/vite-typescript"
+    },
+    "router_type": "react-router",
+    "stats": {
+      "fileCount": 9,
+      "routeCount": 3,
+      "apiRouteCount": 0,
+      "layoutCount": 0
+    },
+    "layouts": [],
+    "routes": [
+      {
+        "routePath": "/",
+        "relativeFilePath": "src/components/Home.tsx",
+        "layoutChain": [],
+        "components": [
+          "Home"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [
+          "useState"
+        ],
+        "eventHandlers": [
+          "onClick"
+        ],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/about",
+        "relativeFilePath": "src/components/About.tsx",
+        "layoutChain": [],
+        "components": [
+          "About"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/contact",
+        "relativeFilePath": "src/components/Contact.tsx",
+        "layoutChain": [],
+        "components": [
+          "Contact"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      }
+    ],
+    "api_routes": [],
+    "all_paths": [
+      "eslint.config.js",
+      "src/App.tsx",
+      "src/components/About.tsx",
+      "src/components/Contact.tsx",
+      "src/components/Home.tsx",
+      "src/components/Navigation.tsx",
+      "src/main.tsx",
+      "src/vite-env.d.ts",
+      "vite.config.ts"
+    ]
+  }
+}

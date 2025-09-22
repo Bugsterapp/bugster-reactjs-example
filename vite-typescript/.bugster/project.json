@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "timestamp": 1758551838643,
+    "git": {
+      "branch": null,
+      "commit": null
+    }
+  },
+  "data": {
+    "frameworks": [
+      {
+        "id": "react",
+        "name": "React.js",
+        "dir_path": "/Users/francosbenitez/Documents/Projects/bugster-inc/bugster-reactjs-example/vite-typescript"
+      }
+    ]
+  }
+}
