@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "timestamp": 1758555418688,
+    "git": {
+      "branch": "main",
+      "commit": "5049f172929a0cb0259b324a7616750d287569ac"
+    }
+  },
+  "data": {
+    "frameworks": [
+      {
+        "id": "react",
+        "name": "React.js",
+        "dir_path": "/Users/francosbenitez/Documents/Projects/bugster-inc/bugster-reactjs-example/vite-react-router-v7"
+      }
+    ]
+  }
+}

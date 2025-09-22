@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "timestamp": 1758555418.714858,
+    "git": {
+      "branch": "main",
+      "commit": "5049f172929a0cb0259b324a7616750d287569ac"
+    }
+  },
+  "data": {
+    "framework": {
+      "id": "react",
+      "name": "React.js",
+      "dir_path": "/Users/francosbenitez/Documents/Projects/bugster-inc/bugster-reactjs-example/vite-react-router-v7"
+    },
+    "router_type": "react-router",
+    "stats": {
+      "fileCount": 11,
+      "routeCount": 5,
+      "apiRouteCount": 0,
+      "layoutCount": 0
+    },
+    "layouts": [],
+    "routes": [
+      {
+        "routePath": "/",
+        "relativeFilePath": "app/routes/home.tsx",
+        "layoutChain": [],
+        "components": [
+          "Home",
+          "Welcome"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/about",
+        "relativeFilePath": "app/routes/about.tsx",
+        "layoutChain": [],
+        "components": [
+          "About"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/contact",
+        "relativeFilePath": "app/routes/contact.tsx",
+        "layoutChain": [],
+        "components": [
+          "Contact"
+        ],
+        "hasParams": false,
+        "hasForm": true,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/products",
+        "relativeFilePath": "app/routes/products.tsx",
+        "layoutChain": [],
+        "components": [
+          "Products"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/dashboard",
+        "relativeFilePath": "app/routes/dashboard.tsx",
+        "layoutChain": [],
+        "components": [
+          "Dashboard"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      }
+    ],
+    "api_routes": [],
+    "all_paths": [
+      "app/components/Navigation.tsx",
+      "app/root.tsx",
+      "app/routes.ts",
+      "app/routes/about.tsx",
+      "app/routes/contact.tsx",
+      "app/routes/dashboard.tsx",
+      "app/routes/home.tsx",
+      "app/routes/products.tsx",
+      "app/welcome/welcome.tsx",
+      "react-router.config.ts",
+      "vite.config.ts"
+    ]
+  }
+}
