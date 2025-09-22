@@ -185,7 +185,7 @@ Found a bug or want to improve the demo? PRs welcome!
 
 - [Bugster Documentation](https://docs.bugster.dev)
 - [React.js Documentation](https://react.dev)
-- [Vite](https://vite.dev/)
+- [Vite Documentation](https://vite.dev/)
 - [Vercel Platform](https://vercel.com/new)
 
 ---
