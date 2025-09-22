@@ -1,8 +1,26 @@
-# 🐛 Bugster - Automated Testing for Next.js
+# 🐛 Bugster - Automated Testing for React.js
 
-**Generate and run comprehensive tests for your Next.js applications with AI-powered automation.**
+**Generate and run comprehensive tests for your React.js applications with AI-powered automation.**
 
-This is a demo shirt shop built with Next.js to showcase how Bugster can automatically generate and run tests for your web applications. Follow this step-by-step guide to try it from scratch!
+This repository contains two different React.js demo implementations to showcase how Bugster can automatically generate and run tests for your web applications. Follow this step-by-step guide to try either implementation from scratch!
+
+## 📁 Available Implementations
+
+This repository includes two React.js examples:
+
+### 1. `vite-react-router-v7/` - React Router v7 (Full-Stack)
+
+- **Framework**: React 19 + Vite + React Router v7
+- **Features**: Full-stack routing with server-side rendering capabilities
+- **Styling**: Tailwind CSS
+- **Port**: `http://localhost:5173`
+
+### 2. `vite-typescript/` - Traditional SPA with React Router DOM
+
+- **Framework**: React 19 + Vite + TypeScript
+- **Routing**: React Router DOM v7 (client-side only)
+- **Features**: Single Page Application with TypeScript
+- **Port**: `http://localhost:5173`
 
 ## 🚀 Phase 1: Try Bugster Locally
 
@@ -25,13 +43,27 @@ _If the command doesn't work, open a new terminal to load the new command._
 ### Step 2: Clone and Run the Example
 
 ```bash
-git clone https://github.com/Bugsterapp/bugster-nextjs-example.git
-cd bugster-nextjs-example
-npm install --legacy-peer-deps
+git clone https://github.com/Bugsterapp/bugster-reactjs-example.git
+cd bugster-reactjs-example
+```
+
+#### Option A: React Router v7 Implementation
+
+```bash
+cd vite-react-router-v7
+npm install
 npm run dev
 ```
 
-Your demo shirt shop should now be running at `http://localhost:3000`
+#### Option B: TypeScript SPA Implementation
+
+```bash
+cd vite-typescript
+npm install
+npm run dev
+```
+
+Your chosen React application should now be running at `http://localhost:5173`
 
 Open your editor:
 
@@ -44,23 +76,32 @@ code .
 
 ### Step 3: Try Bugster in Action
 
+Navigate to your chosen implementation directory first:
+
+```bash
+# For React Router v7:
+cd vite-react-router-v7
+# OR for TypeScript SPA:
+cd vite-typescript
+```
+
 #### Initialize Bugster
 
 ```bash
 bugster init
-# or
-bugster init --project-name bugster-nextjs-example --url http://localhost:3000 --no-credentials
+# or with specific configuration
+bugster init --project-name bugster-reactjs-example --url http://localhost:5173 --no-credentials
 ```
 
 #### Generate Tests
 
-This repo already has some tests at `.bugster/tests` generated with the `bugster generate` command but you can generate more if you want:
+Both implementations already have some tests at `.bugster/tests` generated with the `bugster generate` command but you can generate more if you want:
 
 ```bash
 bugster generate
 ```
 
-_Bugster will analyze your Next.js app and automatically generate comprehensive tests_
+_Bugster will analyze your React.js app and automatically generate comprehensive tests_
 
 #### Run Generated Tests
 
@@ -95,7 +136,8 @@ git push -u origin main
 1. Go to [Vercel Dashboard](https://vercel.com/dashboard)
 2. Click "New Project"
 3. Import **your repository** (the one you just created)
-4. Deploy with default settings
+4. **Important**: Set the root directory to either `vite-react-router-v7` or `vite-typescript` depending on which implementation you want to deploy
+5. Deploy with default settings
 
 ### Step 3: Set Up GitHub Integration
 
@@ -113,7 +155,7 @@ According to the best secure practices, Vercel protects your Vercel Previews, so
 
 #### Configure Bugster
 
-Add the secret to `.bugster/config.yaml`:
+Add the secret to `.bugster/config.yaml` in your chosen implementation directory:
 
 ```yaml
 "x-vercel-protection-bypass": "your-secret-here"
@@ -142,7 +184,8 @@ Found a bug or want to improve the demo? PRs welcome!
 ## 📚 Learn More
 
 - [Bugster Documentation](https://docs.bugster.dev)
-- [Next.js Documentation](https://nextjs.org/docs)
+- [React.js Documentation](https://react.dev)
+- [Vite](https://vite.dev/)
 - [Vercel Platform](https://vercel.com/new)
 
 ---
