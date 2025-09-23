@@ -1,0 +1,9 @@
+name: About Page Content Loading
+page: /about
+page_path: app/routes/about.tsx
+task: View the About page content
+steps:
+- Navigate to the About page
+- Verify that the page title is displayed
+- Verify that the about content is properly rendered
+expected_result: About page loads and displays correct information

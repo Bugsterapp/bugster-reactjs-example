@@ -1,0 +1,9 @@
+name: About page content display
+page: /about
+page_path: src/components/About.tsx
+task: Verify About page content displays correctly
+steps:
+- Navigate directly to the About page ('/about')
+- Verify the About page content is visible
+- Check that the navigation menu is still accessible
+expected_result: About page loads with all content displayed properly

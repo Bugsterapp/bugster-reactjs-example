@@ -1,9 +1,0 @@
-name: Navigate to Home page
-page: /
-page_path: app/routes/home.tsx
-task: Verify user can access the home page and see welcome message
-steps:
-- Open the application
-- Verify the home page is displayed by default
-- Confirm welcome message is visible on the page
-expected_result: Home page loads with welcome message displayed

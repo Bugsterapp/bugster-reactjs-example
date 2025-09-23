@@ -1,0 +1,9 @@
+name: Products Page Display
+page: /products
+page_path: app/routes/products.tsx
+task: View the products listing
+steps:
+- Navigate to the Products page
+- Verify the page title is displayed
+- Verify that products are listed correctly
+expected_result: Products page loads with a list of products

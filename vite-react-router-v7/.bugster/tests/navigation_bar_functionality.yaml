@@ -1,0 +1,11 @@
+name: Navigation Bar Functionality
+page: /
+page_path: app/routes/home.tsx
+task: Navigate between pages using the navigation bar
+steps:
+- Navigate to the home page
+- Click on the 'About' link in the navigation bar
+- Verify the About page is displayed
+- Click on the 'Products' link in the navigation bar
+- Verify the Products page is displayed
+expected_result: User can navigate to different sections of the website

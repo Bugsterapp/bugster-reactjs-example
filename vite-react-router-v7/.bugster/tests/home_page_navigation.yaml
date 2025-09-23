@@ -1,0 +1,9 @@
+name: Home Page Navigation
+page: /
+page_path: app/routes/home.tsx
+task: Navigate to the home page
+steps:
+- Navigate to the application root URL
+- Verify the Home page is displayed
+- Verify the Welcome component is rendered
+expected_result: Home page with Welcome component is displayed

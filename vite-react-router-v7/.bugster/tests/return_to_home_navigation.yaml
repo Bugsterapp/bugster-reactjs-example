@@ -1,0 +1,9 @@
+name: Return to Home Navigation
+page: /about
+page_path: app/routes/about.tsx
+task: Return to home page from other pages
+steps:
+- Navigate to the About page
+- Click on the 'Home' link in the navigation bar
+- Verify the Home page is displayed with the Welcome component
+expected_result: User can return to home page by clicking the home link

@@ -1,9 +1,0 @@
-name: Navigate to About page
-page: /about
-page_path: app/routes/about.tsx
-task: Verify user can navigate to About page
-steps:
-- Open the application
-- Click on the About link in the navigation
-- Verify About page content is displayed
-expected_result: About page loads with relevant content
