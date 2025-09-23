@@ -2,11 +2,11 @@
 
 **Generate and run comprehensive tests for your React.js applications with AI-powered automation.**
 
-This repository contains two different React.js demo implementations to showcase how Bugster can automatically generate and run tests for your web applications. Follow this step-by-step guide to try either implementation from scratch!
+This repository contains three different React.js demo implementations to showcase how Bugster can automatically generate and run tests for your web applications. Follow this step-by-step guide to try any implementation from scratch!
 
 ## 📁 Available Implementations
 
-This repository includes two React.js examples:
+This repository includes three React.js examples:
 
 ### 1. `vite-react-router-v7/` - React Router v7 (Full-Stack)
 
@@ -21,6 +21,13 @@ This repository includes two React.js examples:
 - **Routing**: React Router DOM v7 (client-side only)
 - **Features**: Single Page Application with TypeScript
 - **Port**: `http://localhost:5173`
+
+### 3. `cra-javascript/` - Create React App
+
+- **Framework**: React 19 + Create React App
+- **Language**: JavaScript
+- **Features**: Standard Create React App setup with built-in tooling
+- **Port**: `http://localhost:3000`
 
 ## 🚀 Phase 1: Try Bugster Locally
 
@@ -63,7 +70,15 @@ npm install
 npm run dev
 ```
 
-Your chosen React application should now be running at `http://localhost:5173`
+#### Option C: Create React App Implementation
+
+```bash
+cd cra-javascript
+npm install
+npm start
+```
+
+Your chosen React application should now be running at `http://localhost:5173` (for Vite implementations) or `http://localhost:3000` (for Create React App)
 
 Open your editor:
 
@@ -83,19 +98,23 @@ Navigate to your chosen implementation directory first:
 cd vite-react-router-v7
 # OR for TypeScript SPA:
 cd vite-typescript
+# OR for Create React App:
+cd cra-javascript
 ```
 
 #### Initialize Bugster
 
 ```bash
 bugster init
-# or with specific configuration
+# or with specific configuration for Vite implementations
 bugster init --project-name bugster-reactjs-example --url http://localhost:5173 --no-credentials
+# or for Create React App
+bugster init --project-name bugster-reactjs-example --url http://localhost:3000 --no-credentials
 ```
 
 #### Generate Tests
 
-Both implementations already have some tests at `.bugster/tests` generated with the `bugster generate` command but you can generate more if you want:
+All implementations already have some tests at `.bugster/tests` generated with the `bugster generate` command but you can generate more if you want:
 
 ```bash
 bugster generate
@@ -136,7 +155,7 @@ git push -u origin main
 1. Go to [Vercel Dashboard](https://vercel.com/dashboard)
 2. Click "New Project"
 3. Import **your repository** (the one you just created)
-4. **Important**: Set the root directory to either `vite-react-router-v7` or `vite-typescript` depending on which implementation you want to deploy
+4. **Important**: Set the root directory to `vite-react-router-v7`, `vite-typescript`, or `cra-javascript` depending on which implementation you want to deploy
 5. Deploy with default settings
 
 ### Step 3: Set Up GitHub Integration
