@@ -1,0 +1,9 @@
+name: About page displays content correctly
+page: /about
+page_path: src/components/About.js
+task: Verify About page content displays properly
+steps:
+- Navigate to the About page ('/about')
+- Verify page loads without errors
+- Confirm About page content is visible
+expected_result: About page content is visible and formatted correctly

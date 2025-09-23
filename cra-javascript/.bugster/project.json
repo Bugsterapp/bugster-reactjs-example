@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "timestamp": 1758661001133,
+    "git": {
+      "branch": "main",
+      "commit": "98ff664f26143bfb54c0ea85732a276fa24b298b"
+    }
+  },
+  "data": {
+    "frameworks": [
+      {
+        "id": "react",
+        "name": "React.js",
+        "dir_path": "/Users/francosbenitez/Documents/Projects/bugster-inc/bugster-reactjs-example/cra-javascript"
+      }
+    ]
+  }
+}

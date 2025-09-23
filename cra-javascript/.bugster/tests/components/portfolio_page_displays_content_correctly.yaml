@@ -1,0 +1,9 @@
+name: Portfolio page displays content correctly
+page: /portfolio
+page_path: src/components/Portfolio.js
+task: Verify Portfolio page content displays properly
+steps:
+- Navigate to the Portfolio page ('/portfolio')
+- Verify page loads without errors
+- Confirm Portfolio page content is visible
+expected_result: Portfolio page content is visible and formatted correctly

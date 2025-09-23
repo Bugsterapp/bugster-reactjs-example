@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "timestamp": 1758661001.161697,
+    "git": {
+      "branch": "main",
+      "commit": "98ff664f26143bfb54c0ea85732a276fa24b298b"
+    }
+  },
+  "data": {
+    "framework": {
+      "id": "react",
+      "name": "React.js",
+      "dir_path": "/Users/francosbenitez/Documents/Projects/bugster-inc/bugster-reactjs-example/cra-javascript"
+    },
+    "router_type": "react-router",
+    "stats": {
+      "fileCount": 10,
+      "routeCount": 5,
+      "apiRouteCount": 0,
+      "layoutCount": 0
+    },
+    "layouts": [],
+    "routes": [
+      {
+        "routePath": "/",
+        "relativeFilePath": "src/components/Home.js",
+        "layoutChain": [],
+        "components": [
+          "Home"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/about",
+        "relativeFilePath": "src/components/About.js",
+        "layoutChain": [],
+        "components": [
+          "About"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/services",
+        "relativeFilePath": "src/components/Services.js",
+        "layoutChain": [],
+        "components": [
+          "Services"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/portfolio",
+        "relativeFilePath": "src/components/Portfolio.js",
+        "layoutChain": [],
+        "components": [
+          "Portfolio"
+        ],
+        "hasParams": false,
+        "hasForm": false,
+        "hooks": [],
+        "eventHandlers": [],
+        "featureFlags": []
+      },
+      {
+        "routePath": "/contact",
+        "relativeFilePath": "src/components/Contact.js",
+        "layoutChain": [],
+        "components": [
+          "Contact"
+        ],
+        "hasParams": false,
+        "hasForm": true,
+        "hooks": [
+          "useState"
+        ],
+        "eventHandlers": [
+          "onChange",
+          "handleSubmit",
+          "handleChange",
+          "onSubmit"
+        ],
+        "featureFlags": []
+      }
+    ],
+    "api_routes": [],
+    "all_paths": [
+      "src/App.js",
+      "src/components/About.js",
+      "src/components/Contact.js",
+      "src/components/Home.js",
+      "src/components/Navigation.js",
+      "src/components/Portfolio.js",
+      "src/components/Services.js",
+      "src/index.js",
+      "src/reportWebVitals.js",
+      "src/setupTests.js"
+    ]
+  }
+}

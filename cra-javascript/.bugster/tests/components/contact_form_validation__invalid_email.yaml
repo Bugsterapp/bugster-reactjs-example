@@ -1,0 +1,12 @@
+name: Contact form validation - invalid email
+page: /contact
+page_path: src/components/Contact.js
+task: Verify contact form validates email format
+steps:
+- Navigate to the Contact page ('/contact')
+- Fill in name field with valid data
+- Enter invalid email (e.g. 'test@invalid')
+- Fill in message field with valid data
+- Click the submit button
+- Verify validation error is displayed for email field
+expected_result: Form shows validation error when an invalid email format is entered

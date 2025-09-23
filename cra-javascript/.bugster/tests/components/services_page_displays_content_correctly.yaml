@@ -1,0 +1,9 @@
+name: Services page displays content correctly
+page: /services
+page_path: src/components/Services.js
+task: Verify Services page content displays properly
+steps:
+- Navigate to the Services page ('/services')
+- Verify page loads without errors
+- Confirm Services page content is visible
+expected_result: Services page content is visible and formatted correctly
