@@ -4,6 +4,7 @@ page_path: src/pages/Contact.js
 task: Verify contact form validates user input
 steps:
 - Navigate to the Contact page
+- Verify page title displays 'Contact Us'
 - Leave required fields empty
 - Submit the form
 - Verify validation error messages are displayed

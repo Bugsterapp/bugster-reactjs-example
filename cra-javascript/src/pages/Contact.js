@@ -23,7 +23,7 @@ function Contact() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Contact Us Page</h1>
+        <h1>Contact Us</h1>
         <p>Get in touch with us using the form below.</p>
 
         <form

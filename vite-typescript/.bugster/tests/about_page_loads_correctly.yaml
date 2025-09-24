@@ -4,6 +4,10 @@ page_path: src/pages/About.tsx
 task: Verify the about page loads with correct content
 steps:
 - Navigate to the about page ('/about')
-- Verify the page title is displayed
-- Verify about page content is visible
-expected_result: About page is displayed with title and content
+- Verify the page title 'About Page' is displayed
+- Verify the paragraph 'This is the about page of our React Router demo.' is visible
+- Verify the paragraph 'You can navigate between different pages using the navigation
+  links.' is visible
+- Verify that the previously existing paragraph 'a change in the about page!' is no
+  longer present
+expected_result: About page is displayed with title and correct content paragraphs

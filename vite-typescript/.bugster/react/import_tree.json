@@ -1,0 +1,26 @@
+{
+  "src/pages/Home.tsx": {
+    "path": "src/pages/Home.tsx",
+    "imports": {
+      "../assets/react.svg": {
+        "unresolved": true,
+        "path": "../assets/react.svg"
+      },
+      "/vite.svg": {
+        "unresolved": true,
+        "path": "/vite.svg"
+      }
+    },
+    "import_count": 2
+  },
+  "src/pages/Contact.tsx": {
+    "path": "src/pages/Contact.tsx",
+    "imports": {},
+    "import_count": 0
+  },
+  "src/pages/About.tsx": {
+    "path": "src/pages/About.tsx",
+    "imports": {},
+    "import_count": 0
+  }
+}

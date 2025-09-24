@@ -4,7 +4,9 @@ page_path: src/pages/Contact.js
 task: Verify user can submit the contact form
 steps:
 - Navigate to the Contact page
+- Verify the page displays 'Contact Us' heading
 - Fill in all required fields in the contact form
 - Submit the form
 - Verify submission confirmation or success message
 expected_result: User should be able to fill and submit the contact form successfully
+  with updated contact page header
