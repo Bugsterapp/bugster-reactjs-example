@@ -1,9 +1,9 @@
 name: Home page loads and displays content
 page: /
-page_path: src/components/Home.js
+page_path: src/pages/Home.js
 task: Verify home page loads and displays correctly
 steps:
-- Navigate to the home page ('/')
-- Verify page loads without errors
-- Confirm home page content is visible
+  - Navigate to the home page ('/')
+  - Verify page loads without errors
+  - Confirm home page content is visible
 expected_result: Home page content is displayed properly

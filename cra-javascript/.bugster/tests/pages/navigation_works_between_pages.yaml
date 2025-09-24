@@ -1,0 +1,17 @@
+name: Navigation works between pages
+page: /
+page_path: src/pages/Home.js
+task: Verify navigation between pages works correctly
+steps:
+  - Navigate to the home page ('/')
+  - Click on 'About' in the navigation menu
+  - Verify About page loads
+  - Click on 'Services' in the navigation menu
+  - Verify Services page loads
+  - Click on 'Portfolio' in the navigation menu
+  - Verify Portfolio page loads
+  - Click on 'Contact' in the navigation menu
+  - Verify Contact page loads
+  - Click on 'Home' in the navigation menu
+  - Verify Home page loads
+expected_result: User can navigate between all pages using the navigation menu
