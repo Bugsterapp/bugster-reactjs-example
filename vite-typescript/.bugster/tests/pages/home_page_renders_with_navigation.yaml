@@ -1,0 +1,10 @@
+name: Home page renders with navigation
+page: /
+page_path: src/pages/Home.tsx
+task: Verify the home page loads correctly with navigation menu
+steps:
+  - Navigate to the home page ('/')
+  - Verify home page content is visible
+  - Check that the navigation menu is present with links to Home, About, and Contact
+    pages
+expected_result: Home page content displays with functioning navigation links

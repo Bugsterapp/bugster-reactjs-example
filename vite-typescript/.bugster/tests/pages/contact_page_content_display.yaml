@@ -1,0 +1,9 @@
+name: Contact page content display
+page: /contact
+page_path: src/pages/Contact.tsx
+task: Verify Contact page content displays correctly
+steps:
+  - Navigate directly to the Contact page ('/contact')
+  - Verify the Contact page content is visible
+  - Check that the navigation menu is still accessible
+expected_result: Contact page loads with all content displayed properly
