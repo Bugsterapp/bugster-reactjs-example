@@ -4,6 +4,7 @@ page_path: app/routes/about.tsx
 task: View the About page content
 steps:
 - Navigate to the About page
-- Verify that the page title is displayed
+- Verify that the page title 'About Us - Page' is displayed
 - Verify that the about content is properly rendered
-expected_result: About page loads and displays correct information
+expected_result: About page loads and displays correct information including the updated
+  page title

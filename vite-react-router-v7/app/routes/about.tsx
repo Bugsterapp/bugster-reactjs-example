@@ -15,7 +15,9 @@ export default function About() {
     <div className="min-h-screen bg-white">
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold text-gray-900 mb-8">About Us</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-8">
+            About Us - Page
+          </h1>
 
           <div className="prose prose-lg max-w-none">
             <p className="text-xl text-gray-600 mb-6">

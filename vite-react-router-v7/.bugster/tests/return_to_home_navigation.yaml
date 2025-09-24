@@ -4,6 +4,8 @@ page_path: app/routes/about.tsx
 task: Return to home page from other pages
 steps:
 - Navigate to the About page
+- Verify the page title displays 'About Us - Page'
 - Click on the 'Home' link in the navigation bar
 - Verify the Home page is displayed with the Welcome component
-expected_result: User can return to home page by clicking the home link
+expected_result: User can return to home page by clicking the home link after viewing
+  the updated About Us page title

@@ -1,0 +1,66 @@
+{
+  "app/routes/home.tsx": {
+    "path": "app/routes/home.tsx",
+    "imports": {
+      "./+types/home": {
+        "unresolved": true,
+        "path": "./+types/home"
+      },
+      "../welcome/welcome": {
+        "path": "app/welcome/welcome.tsx",
+        "imports": {
+          "./logo-dark.svg": {
+            "unresolved": true,
+            "path": "./logo-dark.svg"
+          },
+          "./logo-light.svg": {
+            "unresolved": true,
+            "path": "./logo-light.svg"
+          }
+        },
+        "import_count": 2
+      }
+    },
+    "import_count": 2
+  },
+  "app/routes/products.tsx": {
+    "path": "app/routes/products.tsx",
+    "imports": {
+      "./+types/products": {
+        "unresolved": true,
+        "path": "./+types/products"
+      }
+    },
+    "import_count": 1
+  },
+  "app/routes/dashboard.tsx": {
+    "path": "app/routes/dashboard.tsx",
+    "imports": {
+      "./+types/dashboard": {
+        "unresolved": true,
+        "path": "./+types/dashboard"
+      }
+    },
+    "import_count": 1
+  },
+  "app/routes/about.tsx": {
+    "path": "app/routes/about.tsx",
+    "imports": {
+      "./+types/about": {
+        "unresolved": true,
+        "path": "./+types/about"
+      }
+    },
+    "import_count": 1
+  },
+  "app/routes/contact.tsx": {
+    "path": "app/routes/contact.tsx",
+    "imports": {
+      "./+types/contact": {
+        "unresolved": true,
+        "path": "./+types/contact"
+      }
+    },
+    "import_count": 1
+  }
+}
