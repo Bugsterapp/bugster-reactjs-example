@@ -3,8 +3,8 @@ page: /contact
 page_path: src/pages/Contact.js
 task: Verify contact form validation works for empty fields
 steps:
-  - Navigate to the Contact page ('/contact')
-  - Leave all form fields empty
-  - Click the submit button
-  - Verify validation errors are displayed for required fields
+- Navigate to the Contact Us Page ('/contact')
+- Leave all form fields empty
+- Click the submit button
+- Verify validation errors are displayed for required fields
 expected_result: Form shows validation errors when submitted with empty fields
