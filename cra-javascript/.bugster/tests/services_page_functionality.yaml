@@ -1,0 +1,10 @@
+name: Services page functionality
+page: /services
+page_path: src/pages/Services.js
+task: Verify user can view services offered
+steps:
+- Navigate to the Services page
+- Verify services content is displayed
+- Verify all service items are properly rendered
+- Ensure any interactive elements related to services function correctly
+expected_result: User should be able to see the list of services and any related information

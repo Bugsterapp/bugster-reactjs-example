@@ -1,0 +1,11 @@
+name: Home page navigation verification
+page: /
+page_path: src/pages/Home.js
+task: Verify user can view the home page and navigate to other sections
+steps:
+- Open the application
+- Verify home page content is displayed
+- Click on the About navigation link
+- Verify navigation redirects to the About page
+expected_result: User should be able to see home page content and navigate to other
+  pages via navigation links

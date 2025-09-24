@@ -1,0 +1,9 @@
+name: Home page loads correctly
+page: /
+page_path: src/pages/Home.tsx
+task: Verify the home page loads with correct content
+steps:
+- Navigate to the home page ('/')
+- Verify the page title is displayed
+- Verify main content is visible
+expected_result: Home page is displayed with title and content

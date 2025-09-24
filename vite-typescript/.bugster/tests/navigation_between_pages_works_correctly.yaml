@@ -1,0 +1,13 @@
+name: Navigation between pages works correctly
+page: /
+page_path: src/pages/Home.tsx
+task: Verify navigation between pages using the navbar
+steps:
+- Navigate to the home page ('/')
+- Click on 'About' link in the navigation
+- Verify About page content is displayed
+- Click on 'Contact' link in the navigation
+- Verify Contact page content is displayed
+- Click on 'Home' link in the navigation
+- Verify Home page content is displayed
+expected_result: User can navigate between Home, About, and Contact pages

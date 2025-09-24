@@ -1,0 +1,10 @@
+name: Home page button interaction
+page: /
+page_path: src/pages/Home.tsx
+task: Verify the click event on home page button
+steps:
+- Navigate to the home page ('/')
+- Locate the button element on the page
+- Click the button
+- Verify the state change or action occurs (e.g., count increment, UI update)
+expected_result: Button click triggers the expected state change or action

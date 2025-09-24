@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "timestamp": 1758661001.161697,
+    "timestamp": 1758728354.532183,
     "git": {
       "branch": "main",
-      "commit": "98ff664f26143bfb54c0ea85732a276fa24b298b"
+      "commit": "262173975f41da71e6c88d83f4ebe600a3ef5b67"
     }
   },
   "data": {
@@ -23,7 +23,7 @@
     "routes": [
       {
         "routePath": "/",
-        "relativeFilePath": "src/components/Home.js",
+        "relativeFilePath": "src/pages/Home.js",
         "layoutChain": [],
         "components": [
           "Home"
@@ -36,7 +36,7 @@
       },
       {
         "routePath": "/about",
-        "relativeFilePath": "src/components/About.js",
+        "relativeFilePath": "src/pages/About.js",
         "layoutChain": [],
         "components": [
           "About"
@@ -49,7 +49,7 @@
       },
       {
         "routePath": "/services",
-        "relativeFilePath": "src/components/Services.js",
+        "relativeFilePath": "src/pages/Services.js",
         "layoutChain": [],
         "components": [
           "Services"
@@ -62,7 +62,7 @@
       },
       {
         "routePath": "/portfolio",
-        "relativeFilePath": "src/components/Portfolio.js",
+        "relativeFilePath": "src/pages/Portfolio.js",
         "layoutChain": [],
         "components": [
           "Portfolio"
@@ -75,7 +75,7 @@
       },
       {
         "routePath": "/contact",
-        "relativeFilePath": "src/components/Contact.js",
+        "relativeFilePath": "src/pages/Contact.js",
         "layoutChain": [],
         "components": [
           "Contact"
@@ -87,9 +87,9 @@
         ],
         "eventHandlers": [
           "onChange",
-          "handleSubmit",
           "handleChange",
-          "onSubmit"
+          "onSubmit",
+          "handleSubmit"
         ],
         "featureFlags": []
       }
@@ -97,13 +97,13 @@
     "api_routes": [],
     "all_paths": [
       "src/App.js",
-      "src/components/About.js",
-      "src/components/Contact.js",
-      "src/components/Home.js",
       "src/components/Navigation.js",
-      "src/components/Portfolio.js",
-      "src/components/Services.js",
       "src/index.js",
+      "src/pages/About.js",
+      "src/pages/Contact.js",
+      "src/pages/Home.js",
+      "src/pages/Portfolio.js",
+      "src/pages/Services.js",
       "src/reportWebVitals.js",
       "src/setupTests.js"
     ]

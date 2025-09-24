@@ -2,13 +2,13 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
-// Import components
+// Import pages & components
 import Navigation from "./components/Navigation";
-import Home from "./components/Home";
-import About from "./components/About";
-import Services from "./components/Services";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 
 function App() {
   return (

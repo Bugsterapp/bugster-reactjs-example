@@ -1,0 +1,9 @@
+name: About page loads correctly
+page: /about
+page_path: src/pages/About.tsx
+task: Verify the about page loads with correct content
+steps:
+- Navigate to the about page ('/about')
+- Verify the page title is displayed
+- Verify about page content is visible
+expected_result: About page is displayed with title and content

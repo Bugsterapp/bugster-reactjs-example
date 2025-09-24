@@ -1,0 +1,13 @@
+name: Cross-page navigation flow
+page: /
+page_path: src/pages/Home.js
+task: Verify user can navigate through all main sections of the site
+steps:
+- Start at the Home page
+- Navigate to About page and verify content
+- Navigate to Services page and verify content
+- Navigate to Portfolio page and verify content
+- Navigate to Contact page and verify content
+- Return to Home page using navigation
+expected_result: User should be able to access all main pages through navigation and
+  return to home

@@ -1,0 +1,12 @@
+name: Responsive navigation menu
+page: /
+page_path: src/pages/Home.js
+task: Verify navigation menu works on mobile viewport
+steps:
+- Open the application in a mobile viewport size
+- Verify the navigation menu is displayed properly or has a mobile toggle
+- If collapsed, expand the mobile navigation menu
+- Click on different navigation options
+- Verify each navigation action works correctly
+expected_result: Navigation menu should be accessible and functional on mobile viewport
+  sizes

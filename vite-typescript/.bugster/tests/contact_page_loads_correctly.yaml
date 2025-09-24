@@ -1,0 +1,9 @@
+name: Contact page loads correctly
+page: /contact
+page_path: src/pages/Contact.tsx
+task: Verify the contact page loads with correct content
+steps:
+- Navigate to the contact page ('/contact')
+- Verify the page title is displayed
+- Verify contact page content is visible
+expected_result: Contact page is displayed with title and content

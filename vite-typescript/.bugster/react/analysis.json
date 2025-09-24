@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "timestamp": 1758659323.2354171,
+    "timestamp": 1758728411.631927,
     "git": {
       "branch": "main",
-      "commit": "d92a509ccd03782a0936a7456e3132769690d62b"
+      "commit": "262173975f41da71e6c88d83f4ebe600a3ef5b67"
     }
   },
   "data": {
@@ -23,7 +23,7 @@
     "routes": [
       {
         "routePath": "/",
-        "relativeFilePath": "src/components/Home.tsx",
+        "relativeFilePath": "src/pages/Home.tsx",
         "layoutChain": [],
         "components": [
           "Home"
@@ -40,7 +40,7 @@
       },
       {
         "routePath": "/about",
-        "relativeFilePath": "src/components/About.tsx",
+        "relativeFilePath": "src/pages/About.tsx",
         "layoutChain": [],
         "components": [
           "About"
@@ -53,7 +53,7 @@
       },
       {
         "routePath": "/contact",
-        "relativeFilePath": "src/components/Contact.tsx",
+        "relativeFilePath": "src/pages/Contact.tsx",
         "layoutChain": [],
         "components": [
           "Contact"
@@ -69,11 +69,11 @@
     "all_paths": [
       "eslint.config.js",
       "src/App.tsx",
-      "src/components/About.tsx",
-      "src/components/Contact.tsx",
-      "src/components/Home.tsx",
       "src/components/Navigation.tsx",
       "src/main.tsx",
+      "src/pages/About.tsx",
+      "src/pages/Contact.tsx",
+      "src/pages/Home.tsx",
       "src/vite-env.d.ts",
       "vite.config.ts"
     ]

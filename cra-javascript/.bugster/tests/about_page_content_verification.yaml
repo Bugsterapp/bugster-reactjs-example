@@ -1,0 +1,10 @@
+name: About page content verification
+page: /about
+page_path: src/pages/About.js
+task: Verify user can view the About page content
+steps:
+- Navigate to the About page
+- Verify About page content is displayed
+- Verify any images or other media load correctly
+- Verify navigation menu is accessible from this page
+expected_result: User should be able to see About page information

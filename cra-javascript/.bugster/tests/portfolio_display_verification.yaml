@@ -1,0 +1,10 @@
+name: Portfolio display verification
+page: /portfolio
+page_path: src/pages/Portfolio.js
+task: Verify portfolio items are displayed correctly
+steps:
+- Navigate to the Portfolio page
+- Verify portfolio items are displayed
+- Check that images load properly
+- Verify any portfolio item details are accessible
+expected_result: User should be able to view portfolio items with appropriate formatting
